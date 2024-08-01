@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 1000;
+    font-style: smaller;
+    font-size: 30px;
+  }
+  #github,#try{
+    width: 90px;
+    padding: 4px 4px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  #github:hover{
+    background-color: orange;
+    color: white;
+  }
+  #try:hover{
+    background-color: orange;
+    color: white;
+  }
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: self-end;
+}
+#projects{
+    margin-top: 30px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+@media (max-width:570px){
+    #details_container{
+        text-wrap: wrap;
+        border: 1px solid black;
+        margin: 2px 2px 2px 2px;
+    }
+    #set{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #email_box {
+        font-size: 0;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #form_frame{
+        width: max-content;
+
+    }
+    button{
+        width: max-content;
+    }
+
+
+}
+#set{
+    display: flex;
+    justify-content: center;
+}
+li{
+    font-weight: bolder;
+    font-size: large;
+    border:1px solid gray;
+    border-style: none;
+    padding: 8px 8px;
+    transition-property: all;
+
+}
+li:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    
+
+}
+#name_f,#email,#subject,#feed_btn,#message{
+    width: 250px;
+    margin-top: 20px;
+    border-style: none;
+    border-bottom-style: solid;
+    padding: 10px 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+#feed_btn{
+    border-bottom-style: none;
+    background-color: blueviolet;
+    color: white;
+    width: 268px;
+}
+#form_frame{
+    
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    border: 1px solid black;
+    gap: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: auto;
+    height: 500px;
+    
+}
+#inner_frame{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#myprofile{
+    height: 400px;
+    max-width: 400px;
+    width: 100%;  
+    border-radius: 50%;   
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#cv_btn,#Github_btn{
+    height:max-content;
+    border-radius: 8px;
+    width: 100%;
+    max-width: max-content;
+    padding: 10px 100px;
+    margin-left: 5px;
+    
+    
+}
+#cv_btn{
+    background-color: black;
+    color: white;
+}
+#cv_btn:hover{
+    color:black;
+    background-color: white;
+    font-weight: bolder;
+}
+#Github_btn:hover{
+    background-color: orange;
+    color: white;
+}
+#Github_btn{
+    color:black;
+    background-color: white;
+    font-weight: bolder;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    margin: 5px;
+}
+#details_container{
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.icons{
+    height: 30px;
+}
+#exp_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 300px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    box-shadow: 1px 1px  2px 2px;
+
+}
+#email_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center; 
+    width: 60%;
+    border: 1px solid black;
+    padding: 5px 5px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px ;
+    margin-bottom: 20px;
+}
+
+#footer_info{
+    text-align: center;
+    padding-top: 20px;
+}
+.img{
+    width: 160px;
+    height: 160px;
+    margin-top: 8px;
+    border-radius: 10px;  
+}
+#container_project{
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px 2px;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+#container_project:hover{
+    background-color: blue;
+    color: white;
+
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+}
